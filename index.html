@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio tej</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0edb69bbe4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">home</a></li>
+                    <li> <a href="#about">about</a></li>
+                    <li> <a href="#Projects">Projects</a></li>
+                    <li> <a href="#portfolio">Hobbies</a></li>
+                    <li> <a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'M <span>TEJ</span> From INDIA </h1>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------about-------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Proactive and personable job seeker completed Bachelor's of Technology at Kuppam 
+                        Engineering College. Excellent written and oral communication skills. I believe my 
+                        enthusiasm and specialized experience would make me an asset to your team. 
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experiences')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Design of websites</li>
+                            <li><span>SQL</span><br> Creating DataBase</li>
+                            <li><span>Java</span><br>Develop an client server environment</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experiences">
+                        <ul>
+                            <li><span>Web Development</span><br>Less than a year</li>
+                            <li><span>SQL</span><br> Less than a year</li>
+                            <li><span>Java</span><br>Less Than a year</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>SSLC</span><br>in GHS kugur<br>with 82% of marks.</li>
+                            <li><span>PUC</span><br>SSVN PU College<br>with 70% of marks.</li>
+                            <li><span>B Tech</span><br>Kuppam Engineering College<br>with 65% aggregate.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----services-->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects </h1>
+            <div class="services-list">
+                <div>
+                    <h2>E-authentication using Qr and OTP</h2>
+                    <p>E-authentication system revolutionizes website login and authentication.
+                        it  eliminate many problems inherent in traditional techniques.It gives more secure.
+                    </p>
+                    <a href="https://jpinfotech.org/e-authentication-system-using-qr-code-and-otp/">learn more</a>
+                </div>
+                <div>
+                    <h2>Online Car Rental System</h2>
+                    <p>Online car rental system aims to reduce the difficulty of storing data in a rental 
+                        service office and avoiding the manul book working methods.
+                    </p>
+                    <a href="#">learn more</a>
+                </div> 
+                <div>
+                    <h2>Online Shoping System</h2>
+                    <p>If shops are providing an online portal where their customers can enjoy 
+                        easy shopping from anywhere, the shops won’t be losing any more 
+                        customers to the trending online shops such as flipkart or ebay.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--PortFolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/social Media.jpg" >
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>I am very active in social media like Instgram,facebook,Twitter Etc</p>
+                        <a href="#">click </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Travel.jpg" >
+                    <div class="layer">
+                        <h3>Travelling</h3>
+                        <p>I was more intrest in travelling because the nature well give peace 
+                            we learn new things 
+                        </p>
+                        <a href="#">click </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Game.jpg" >
+                    <div class="layer">
+                        <h3>Playing Games</h3>
+                        <p>I am more intrested in playing online game like PUBG,BGMI,COD....etc</p>
+                        <a href="#">click </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!--Contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>tejars63640@gmail.com</p>
+                <p>6364016779</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/teja.rs.10"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/home"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/teja-r-s-3728931b5/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                    <button type="button" class="btn" class="btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright Teja made for self intro</p>
+
+    </div>
+
+</div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzSbs08vvaR-1VktLhdtG9-eGkXS2qu8vW7XZXpN3Lb3iIYBazwd-lS_rnyghSTcM-Xhg/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Message sent sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
